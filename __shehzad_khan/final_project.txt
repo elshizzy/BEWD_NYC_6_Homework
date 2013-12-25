@@ -1,0 +1,22 @@
+Final project proposal:
+
+Restaurant recoomendation & management
+
+I'd like to build a site that pulls in restaurant data based off of location and distance parameters.
+
+One will then see one restaurant at a time, with basic information about it.
+
+The key functionality will be to be able to say you've already eaten there and then add it to your likes. This way, you have an active record of the restaurants you liked and when searching for new ones, will no longer see the ones that you have already liked or disliked, enabling new discovery only.
+
+This may be outside of the scope of the project, but I'd ultimately also like to build an algorithm where the suggested restaurants you see are displayed in order of likelihood that you would like them. This would be based off of your past likes, and what other people who liked the same restaurants also happen to like.
+
+In order to get restaurant data, I plan on using one of the APIs in this list:
+
+http://blog.programmableweb.com/2013/06/05/35-restaurant-apis-unofficial-open-table-food-genius-and-menu-mania/
+
+My guess is the Seamless API or The Google Places API will work well for this, but I guess I will only know more as I try to get it off the ground.
+
+Please let me know how you feel about this project and help me refine it so that the scope is something I can accomplish within the time we have together.
+
+Thanks,
+Shehzad
