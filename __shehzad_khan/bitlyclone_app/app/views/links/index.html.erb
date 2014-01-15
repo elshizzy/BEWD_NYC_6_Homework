@@ -1,0 +1,21 @@
+<%= flash[:alert] %>
+
+<h1>Links Go Here</h1>
+<table>
+	<thead>
+			<tr>
+				<th>URL</th>
+				<th>Code</th>
+				<th>Visit</th>
+			</tr>
+		</thead>
+		<% @links.each do |link| %>
+		<tr>
+			<td><%= link.url %></td>
+			<td><%= link.code %></td>
+			<td><center><%= link_to "Click", "/links/#{link.id}" %></center></td>
+		</tr>
+		<% end %>
+</table>
+<br />
+<%= link_to "Add new website", new_link_path %>

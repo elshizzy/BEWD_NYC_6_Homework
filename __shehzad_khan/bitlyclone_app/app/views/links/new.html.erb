@@ -1,0 +1,6 @@
+<h1>Add New Link</h1>
+<%= form_for @link do |form| %>
+	<%= form.label :url %>
+	<%= form.text_field :url %><br /><br />
+	<%= form.submit %>
+<% end %>
