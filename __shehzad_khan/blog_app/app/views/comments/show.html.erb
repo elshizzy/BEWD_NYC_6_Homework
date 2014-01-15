@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @comment.content %>
+</p>
+
+<%= link_to 'Edit', "/posts/#{@comment.post_id}/comments/#{@comment.id}/edit" %> |
+<%= link_to 'Back', "/posts/#{@comment.post_id}/comments/" %>
